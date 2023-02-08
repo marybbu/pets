@@ -1,3 +1,9 @@
 @media only screen and (max-width: 768px) {
-  
+  main {
+   display: block;
+  }
+  .ban-content {
+    margin: auto;
+  }
+ 
 }
