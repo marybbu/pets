@@ -146,7 +146,7 @@ ol {
   padding: 0;
 }
 
-main {
+.banner {
   display: flex;
   align-items: center;
 }
@@ -155,7 +155,7 @@ main {
   max-width: 460px;
 }
 
-main img {
+.banner img {
   margin: 80px 0 0 42px;
 }
 
@@ -191,7 +191,7 @@ main img {
   flex-wrap: wrap;
 }
 
-.catalog .pets {
+.pets {
   display: flex;
   justify-content: space-between;
   margin: 0 90px 0 90px;
@@ -244,40 +244,18 @@ main img {
   align-items: center;
 }
 
-.itemsfrow,
-.itemssrow {
-  display: flex;
+.itemsrow {
+  display: none;
   justify-content: space-around;
   padding: 0 80px;
 }
 
-.itemsfrow {
-  gap: 120px;
-}
-
-.itemssrow {
-  padding: 50px 140px 100px;
-}
-
-.itemsfrow p,
-.itemssrow p {
+.itemsrow p {
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 115%;
-}
-
-.itemsfrow .card,
-.itemssrow .card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.itemsfrow img,
-.itemssrow img {
-  max-width: 60px;
 }
 
 .help {
@@ -302,18 +280,7 @@ main img {
   gap: 20px;
 }
 
-.donation .inform p {
-  font-family: 'Georgia';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 35px;
-  line-height: 130%;
-  max-width: 300px;
-  color: #545454;
-  margin: 0;
-}
-
-.donation .inform .bank {
+.label_serif {
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
@@ -322,7 +289,7 @@ main img {
   color: #545454;
 }
 
-.donation .inform .number {
+.donation .inform .phone_number {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -332,13 +299,13 @@ main img {
   background: #F1CDB3;
 }
 
-.donation .inform .num {
+.donation .inform .phone_number {
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 115%;
-  max-width: 274px;
+  max-width: 349px;
   margin: 0;
 }
 
@@ -381,6 +348,10 @@ main img {
 /* helpers */
 .d-block {
   display: block !important;
+}
+.my-0 {
+ margin-top: 0;
+ margin-bottom: 0;
 }
 
 .mb-24 {
