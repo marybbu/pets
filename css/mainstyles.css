@@ -69,7 +69,7 @@ a {
   margin-right: 0;
 }
 
- .active {
+.active {
   color: #FAFAFA;
 }
 
@@ -107,6 +107,7 @@ a {
   max-width: 460px;
 }
 
+
 .button {
   background: #F1CDB3;
   border-radius: 100px;
@@ -131,14 +132,6 @@ a {
   letter-spacing: 0.06em;
 }
 
-.info p {
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 160%;
-  color: #4C4C4C;
-}
 
 ul,
 ol {
@@ -182,7 +175,8 @@ ol {
   font-size: 15px;
   line-height: 160%;
   max-width: 430px;
-  margin-bottom: 25px
+  margin-bottom: 25px;
+  color: #4C4C4C;
 }
 
 .catalog {
@@ -273,7 +267,7 @@ ol {
   justify-content: center;
 }
 
- .inform {
+.inform {
   display: flex;
   flex-direction: column;
   width: 380px;
@@ -289,17 +283,7 @@ ol {
   color: #545454;
 }
 
-.donation .inform .phone_number {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  margin-right: auto;
-  padding: 10px 15px;
-  border-radius: 9px;
-  background: #F1CDB3;
-}
-
-.donation .inform .phone_number {
+.phone_number {
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
@@ -307,10 +291,21 @@ ol {
   line-height: 115%;
   max-width: 349px;
   margin: 0;
+  color: #F1CDB3;
+}
+
+.phone_number.label {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: auto;
+  padding: 10px 15px;
+  border-radius: 9px;
+  background: #F1CDB3;
   color: black;
 }
 
- .lorem {
+.lorem {
   font-family: 'Arial';
   font-style: italic;
   font-weight: 400;
@@ -350,9 +345,10 @@ ol {
 .d-block {
   display: block !important;
 }
+
 .my-0 {
- margin-top: 0;
- margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .mb-24 {
