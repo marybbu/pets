@@ -1,14 +1,25 @@
 @media only screen and (max-width: 768px) {
   .banner {
-    display: block;
+   flex-direction: column;
+  }
+
+  .logo {
+    padding-left: 30px;
   }
 
   .ban-content {
     margin: auto;
   }
 
+  .banner img {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: 3.9%;
+    max-width: 74%;
+  }
+
   .head {
-    padding: 30px 0 0 30px;
+    padding: 30px 0 0 0;
   }
 
   .headerh1 {
@@ -50,18 +61,22 @@
     justify-content: center;
     gap: 40px;
   }
+
   .donation {
     flex-direction: column-reverse;
     align-items: center;
   }
+
   .footer {
     flex-wrap: wrap;
   }
+
   .footer_column {
     flex-basis: 50%;
     flex-grow: 1;
   }
-   .contacts {
+
+  .contacts {
     color: #F1CDB3;
   }
 }
