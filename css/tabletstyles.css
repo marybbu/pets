@@ -1,5 +1,5 @@
 @media only screen and (max-width: 768px) {
-  main {
+  .banner {
     display: block;
   }
 
@@ -53,5 +53,15 @@
   .donation {
     flex-direction: column-reverse;
     align-items: center;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .footer_column {
+    flex-basis: 50%;
+    flex-grow: 1;
+  }
+   .contacts {
+    color: #F1CDB3;
   }
 }

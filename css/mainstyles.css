@@ -69,7 +69,7 @@ a {
   margin-right: 0;
 }
 
-.links .active {
+ .active {
   color: #FAFAFA;
 }
 
@@ -273,7 +273,7 @@ ol {
   justify-content: center;
 }
 
-.donation .inform {
+ .inform {
   display: flex;
   flex-direction: column;
   width: 380px;
@@ -307,9 +307,10 @@ ol {
   line-height: 115%;
   max-width: 349px;
   margin: 0;
+  color: black;
 }
 
-.donation .inform .lorem {
+ .lorem {
   font-family: 'Arial';
   font-style: italic;
   font-weight: 400;
@@ -319,7 +320,7 @@ ol {
   max-width: 380px;
 }
 
-.bottom {
+.footer {
   display: flex;
   background-color: #43372E;
   padding-top: 40px;
