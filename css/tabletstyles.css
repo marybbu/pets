@@ -1,6 +1,10 @@
 @media only screen and (max-width: 768px) {
   .banner {
-   flex-direction: column;
+    flex-direction: column;
+  }
+
+  header {
+    margin-right: 30px;
   }
 
   .logo {
@@ -62,6 +66,11 @@
     gap: 40px;
   }
 
+  .itemsrow{
+    display: grid;
+    grid-template-columns: repeat(3, auto)
+  }
+
   .donation {
     flex-direction: column-reverse;
     align-items: center;
@@ -69,14 +78,22 @@
 
   .footer {
     flex-wrap: wrap;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 
   .footer_column {
     flex-basis: 50%;
     flex-grow: 1;
+    margin-bottom: 65px;
   }
 
-  .contacts {
-    color: #F1CDB3;
+  .footer_column .block-title {
+    margin-bottom: 0;
+  }
+
+  .brown-parag {
+    margin-top: 40px;
+    margin-bottom: 0;
   }
 }
