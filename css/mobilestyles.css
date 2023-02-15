@@ -1,0 +1,58 @@
+@media only screen and (max-width: 320px) {
+    .links {
+        display: none;
+    }
+
+    .ban-content {
+        text-align: center;
+    }
+
+    .headerh1 {
+        font-size: 25px;
+    }
+
+    .info {
+        /*
+        padding-right: 25px;
+        padding-left: 25px;
+        padding-bottom: 42px; */
+        text-align: center;
+    }
+
+    .block-title {
+        font-size: 25px;
+    }
+
+    .petcard:nth-of-type(2) {
+        display: none;
+    }
+
+    .itemsrow {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+    
+
+    .donation img {
+        max-width: 90%;
+        margin: 42px 30px;
+    }
+
+    .inform {
+        text-align: center;
+    }
+
+    .phone_number {
+        font-size: 15px;
+    }
+
+    .phone_number.label {
+        margin-left: auto;
+    }
+    .lorem{
+        max-width: 280px
+    }
+}
