@@ -1,4 +1,13 @@
 @media only screen and (max-width: 320px) {
+    .head {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo {
+        padding-left: 0;
+    }
+
     .links {
         display: none;
     }
@@ -12,11 +21,14 @@
     }
 
     .info {
-        /*
         padding-right: 25px;
         padding-left: 25px;
-        padding-bottom: 42px; */
+        padding-bottom: 42px;
         text-align: center;
+    }
+
+    .info img{
+        margin-top: 27px;
     }
 
     .block-title {
@@ -27,18 +39,30 @@
         display: none;
     }
 
+    .help {
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+
     .itemsrow {
         grid-template-columns: repeat(2, auto);
+        padding: 0 55px;
     }
 
     .card p {
         font-size: 15px;
     }
-    
 
-    .donation img {
-        max-width: 90%;
-        margin: 42px 30px;
+    .card img{
+        max-width: 105%; /* first row 75 % ?? */
+    }
+
+    .donation {
+        padding: 42px 10px 0 10px;
+    }
+
+    .donation_img {
+        margin: 42px 0;
     }
 
     .inform {
@@ -52,7 +76,21 @@
     .phone_number.label {
         margin-left: auto;
     }
-    .lorem{
-        max-width: 280px
+
+    .lorem {
+        margin: 0;
+    }
+
+    .footer {
+        padding: 30px 10px 0 10px ;
+        text-align: center;
+    }
+
+    .footer_column{
+        margin-bottom: 40px;
+    }
+
+    .footer_column_img{
+       margin-top: auto;
     }
 }
