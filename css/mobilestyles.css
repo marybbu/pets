@@ -8,8 +8,36 @@
         padding-left: 0;
     }
 
-    .links {
+    .main_menu .logo,
+    .main_button {
+        display: inline-block;
+    }
+
+
+    .main_menu {
         display: none;
+        position: fixed;
+        background: #292929;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        flex-direction: column;
+        z-index: 10;
+    }
+
+    .main_menu.open {
+        display: flex;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links a {
+        font-size: 32px;
     }
 
     .ban-content {
@@ -27,7 +55,7 @@
         text-align: center;
     }
 
-    .info img{
+    .info img {
         margin-top: 27px;
     }
 
@@ -53,8 +81,9 @@
         font-size: 15px;
     }
 
-    .card img{
-        max-width: 105%; /* first row 75 % ?? */
+    .card img {
+        max-width: 105%;
+        /* first row 75 % ?? */
     }
 
     .donation {
@@ -82,15 +111,15 @@
     }
 
     .footer {
-        padding: 30px 10px 0 10px ;
+        padding: 30px 10px 0 10px;
         text-align: center;
     }
 
-    .footer_column{
+    .footer_column {
         margin-bottom: 40px;
     }
 
-    .footer_column_img{
-       margin-top: auto;
+    .footer_column_img {
+        margin-top: auto;
     }
 }

@@ -57,7 +57,14 @@ header {
 a {
   text-decoration: none;
 }
-
+.main_menu .logo ,
+.main_button {
+  display: none;
+} 
+.main_button {
+  background: transparent;
+  border: none;
+}
 .links a {
   font-family: arial;
   font-style: normal;
