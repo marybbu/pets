@@ -6,6 +6,7 @@
 
     .logo {
         padding-left: 0;
+        margin: 30px 40px 0 10px;
     }
 
     .main_menu .logo,
@@ -34,10 +35,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: auto;
     }
 
     .links a {
         font-size: 32px;
+        margin: 0;
+        margin-bottom: 40px;
     }
 
     .ban-content {
