@@ -6,7 +6,6 @@
 
     .logo {
         padding-left: 0;
-        margin: 30px 40px 0 10px;
     }
 
     .main_menu .logo,
@@ -14,21 +13,25 @@
         display: inline-block;
     }
 
-
     .main_menu {
-        display: none;
+        display: flex;
         position: fixed;
         background: #292929;
-        left: 0;
-        right: 0;
+        left: 100vw;
         top: 0;
         height: 100vh;
         flex-direction: column;
         z-index: 10;
+        width: 100vw;
+        transition: all .6s;
     }
 
     .main_menu.open {
-        display: flex;
+        left: 0;
+    }
+
+    .main_menu.open .logo {
+        margin: 30px 40px 0 10px;
     }
 
     .links {
