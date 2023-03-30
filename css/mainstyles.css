@@ -5,8 +5,8 @@
 body {
   margin: 0;
 }
- 
-img{
+
+img {
   max-width: 100%;
 }
 
@@ -57,14 +57,17 @@ header {
 a {
   text-decoration: none;
 }
-.main_menu .logo ,
+
+.main_menu .logo,
 .main_button {
   display: none;
-} 
+}
+
 .main_button {
   background: transparent;
   border: none;
 }
+
 .links a {
   font-family: arial;
   font-style: normal;
@@ -197,10 +200,46 @@ ol {
 }
 
 .modal_wrap {
-  background: black;
+  background: rgba(0, 0, 0, .5);
   z-index: 10;
   position: fixed;
   display: flex;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+
+.modal_content {
+  display: flex;
+  align-items: center;
+  background: white;
+  max-width: 900px;
+  margin: auto;
+}
+
+.modal_name {
+  font-family: 'Georgia';
+  font-size: 35px;
+}
+
+.modal_animal {
+  font-family: 'Georgia';
+  font-size: 20px;
+}
+
+.modal_discr {
+  font-family: 'Georgia';
+  font-size: 15px;
+}
+
+.property {
+  font-family: 'Georgia';
+  font-size: 15px;
+}
+
+.ol_title {
+  display: inline;
 }
 
 .pets {
@@ -288,7 +327,7 @@ ol {
   padding-top: 80px;
 }
 
-.help .block-title{
+.help .block-title {
   margin-top: 0;
   margin-bottom: 60px;
 }
