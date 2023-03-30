@@ -196,6 +196,13 @@ ol {
   flex-wrap: wrap;
 }
 
+.modal_wrap {
+  background: black;
+  z-index: 10;
+  position: fixed;
+  display: flex;
+}
+
 .pets {
   display: flex;
   justify-content: space-between;
