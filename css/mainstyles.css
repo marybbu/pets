@@ -203,11 +203,15 @@ ol {
   background: rgba(0, 0, 0, .5);
   z-index: 10;
   position: fixed;
-  display: flex;
+  display: none;
   width: 100vw;
   height: 100vh;
   left: 0;
   top: 0;
+}
+
+.modal_wrap.open{
+  display: flex;
 }
 
 .modal_content {
@@ -216,30 +220,51 @@ ol {
   background: white;
   max-width: 900px;
   margin: auto;
+  gap: 30px;
+  border-radius: 20px;
+  padding: 20px;
+  position: relative;
 }
+
+
 
 .modal_name {
   font-family: 'Georgia';
   font-size: 35px;
+  margin-bottom: 10px;
+  margin-top: 50px;
 }
 
 .modal_animal {
   font-family: 'Georgia';
   font-size: 20px;
+  margin-bottom: 40px;
 }
 
 .modal_discr {
   font-family: 'Georgia';
   font-size: 15px;
+  margin-bottom: 40px;
+  max-width: 350px;
 }
+
+.modal_close {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 
 .property {
   font-family: 'Georgia';
   font-size: 15px;
+  margin-bottom: 90px;
+  margin-left: 16px;
 }
 
 .ol_title {
   display: inline;
+  font-weight: bold;
 }
 
 .pets {
@@ -264,7 +289,7 @@ ol {
   color: #FFFFFF;
 }
 
-.petcard a {
+.petcard .button_learnmore {
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
@@ -277,6 +302,7 @@ ol {
   display: inline-block;
   padding: 12px 47px;
   margin: 30px;
+  background: none;
 }
 
 .petcard p {
