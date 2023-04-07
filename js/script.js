@@ -13,8 +13,8 @@ buttonsArray.forEach(button => {
 const petsResponseMock = [
     {
         id: 1,
-        src: "./img/big_img.jpg",
-        title: "Dog title",
+        src: "./img/pets-katrine.png",
+        title: "Katrine ",
         breed: "test",
         content: "asfosdhgr eobweijfbweif dkmfb sdkf pefijweofihwef kjekfjbwef",
         params: {
@@ -24,8 +24,8 @@ const petsResponseMock = [
     },
     {
         id: 2,
-        src: "./img/big_img.jpg",
-        title: "Dog title 2",
+        src: "./img/pets-jennifer.png",
+        title: "Jennifer",
         breed: "test",
         content: "eee",
         params: {
@@ -35,8 +35,8 @@ const petsResponseMock = [
     },
     {
         id: 3,
-        src: "./img/big_img.jpg",
-        title: "Dog title 3",
+        src: "./img/pets-woody.png",
+        title: "Woody",
         breed: "eRRRR",
         content: "awesome content",
         params: {

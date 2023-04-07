@@ -226,8 +226,6 @@ ol {
   position: relative;
 }
 
-
-
 .modal_name {
   font-family: 'Georgia';
   font-size: 35px;
@@ -250,16 +248,22 @@ ol {
 
 .modal_close {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: -45px;
+  top: -45px;
+  background: none;
+  border-radius: 50%;
+  border: 2px solid #F1CDB3;
+  padding: 18px;
 }
-
 
 .property {
   font-family: 'Georgia';
   font-size: 15px;
   margin-bottom: 90px;
   margin-left: 16px;
+  gap: 11px;
+  display: flex;
+  flex-direction: column;
 }
 
 .ol_title {
