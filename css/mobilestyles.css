@@ -30,7 +30,7 @@
         left: 0;
     }
 
-    .main_menu.open .logo {
+    .main_menu .logo {
         margin: 30px 40px 0 10px;
     }
 
