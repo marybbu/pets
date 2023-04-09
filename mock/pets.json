@@ -1,0 +1,37 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "src": "./img/pets-katrine.png",
+            "title": "Katrine",
+            "breed": "test",
+            "content": "asfosdhgr eobweijfbweif dkmfb sdkf pefijweofihwef kjekfjbwef",
+            "params": {
+                "Age": 8,
+                "test": "bb"
+            }
+        },
+        {
+            "id": 2,
+            "src": "./img/pets-jennifer.png",
+            "title": "Jennifer",
+            "breed": "test",
+            "content": "eee",
+            "params": {
+                "Age": 5,
+                "test": "ee"
+            }
+        },
+        {
+            "id": 3,
+            "src": "./img/pets-woody.png",
+            "title": "Woody",
+            "breed": "eRRRR",
+            "content": "awesome content",
+            "params": {
+                "Age": 2,
+                "test": "yep"
+            }
+        }
+    ]
+}
