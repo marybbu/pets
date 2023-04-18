@@ -1,0 +1,132 @@
+@media only screen and (max-width: 320px) {
+    .head {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .logo {
+        padding-left: 0;
+    }
+
+    .main_menu .logo,
+    .main_button {
+        display: inline-block;
+    }
+
+    .main_menu {
+        display: flex;
+        position: fixed;
+        background: #292929;
+        left: 100vw;
+        top: 0;
+        height: 100vh;
+        flex-direction: column;
+        z-index: 10;
+        width: 100vw;
+        transition: all .6s;
+    }
+
+    .main_menu.open {
+        left: 0;
+    }
+
+    .main_menu .logo {
+        margin: 30px 40px 0 10px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+    .links a {
+        font-size: 32px;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    .ban-content {
+        text-align: center;
+    }
+
+    .headerh1 {
+        font-size: 25px;
+    }
+
+    .info {
+        padding-right: 25px;
+        padding-left: 25px;
+        padding-bottom: 42px;
+        text-align: center;
+    }
+
+    .info img {
+        margin-top: 27px;
+    }
+
+    .block-title {
+        font-size: 25px;
+    }
+
+    .petcard:nth-of-type(2) {
+        display: none;
+    }
+
+    .help {
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+
+    .itemsrow {
+        grid-template-columns: repeat(2, auto);
+        padding: 0 55px;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+
+    .card img {
+        max-width: 105%;
+        /* first row 75 % ?? */
+    }
+
+    .donation {
+        padding: 42px 10px 0 10px;
+    }
+
+    .donation_img {
+        margin: 42px 0;
+    }
+
+    .inform {
+        text-align: center;
+    }
+
+    .phone_number {
+        font-size: 15px;
+    }
+
+    .phone_number.label {
+        margin-left: auto;
+    }
+
+    .lorem {
+        margin: 0;
+    }
+
+    .footer {
+        padding: 30px 10px 0 10px;
+        text-align: center;
+    }
+
+    .footer_column {
+        margin-bottom: 40px;
+    }
+
+    .footer_column_img {
+        margin-top: auto;
+    }
+}

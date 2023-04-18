@@ -1,0 +1,99 @@
+@media only screen and (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+  }
+
+  header {
+    margin-right: 30px;
+  }
+
+  .logo {
+    padding-left: 30px;
+  }
+
+  .ban-content {
+    margin: auto;
+  }
+
+  .banner img {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: 3.9%;
+    max-width: 80%;
+  }
+
+  .head {
+    padding: 30px 0 0 0;
+  }
+
+  .headerh1 {
+    margin-top: 60px;
+  }
+
+  .button {
+    display: block;
+    margin: auto;
+  }
+
+  .info {
+    flex-direction: column-reverse;
+    align-items: center;
+    max-width: 430px;
+    margin: auto;
+  }
+
+  .info img {
+    margin-top: 80px;
+  }
+
+  .info-content {
+    margin-left: 0;
+  }
+
+  .petcard {
+    display: none;
+  }
+
+  .petcard:nth-of-type(1),
+  .petcard:nth-of-type(2) {
+    display: flex;
+  }
+
+  .pets {
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .itemsrow{
+    display: grid;
+    grid-template-columns: repeat(3, auto)
+  }
+
+  .donation {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .footer_column {
+    flex-basis: 50%;
+    flex-grow: 1;
+    margin-bottom: 65px;
+  }
+
+  .footer_column .block-title {
+    margin-bottom: 0;
+  }
+
+  .brown-parag {
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+}

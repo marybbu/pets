@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/mainstyles.css">
+    <link rel="stylesheet" href="./css/tabletstyles.css">
+    <link rel="stylesheet" href="./css/mobilestyles.css">
+
+    <title>shelter</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <header>
+                <div class="logo">
+                    <h2 class="title">Cosy House</h2>
+                    <h4 class="subtitle">Shelter for pets in Boston</h4>
+                </div>
+                <button class="main_button"><svg width="30" height="22" viewBox="0 0 30 22" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <line y1="21" x2="30" y2="21" stroke="#F1CDB3" stroke-width="2" />
+                        <line y1="11" x2="30" y2="11" stroke="#F1CDB3" stroke-width="2" />
+                        <line y1="1" x2="30" y2="1" stroke="#F1CDB3" stroke-width="2" />
+                    </svg>
+                </button>
+                <div class="main_menu ">
+                    <div>
+                        <div class="logo">
+                            <h2 class="title">Cosy House</h2>
+                            <h4 class="subtitle">Shelter for pets in Boston</h4>
+                        </div>
+
+                        <button class="main_button"><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <line x1="24" y1="30" x2="24" stroke="#F1CDB3" stroke-width="2" />
+                                <line x1="14" y1="30" x2="14" stroke="#F1CDB3" stroke-width="2" />
+                                <line x1="4" y1="30" x2="4" stroke="#F1CDB3" stroke-width="2" />
+                            </svg>
+                        </button>
+                    </div>
+                    <ul class="links">
+                        <a class="active" href="#">About the shelter</a>
+                        <a href="#">Our pets</a>
+                        <a href="#">Help the shelter</a>
+                        <a href="#">Contacts</a>
+                    </ul>
+                </div>
+            </header>
+            <div class="banner">
+                <div class="ban-content">
+                    <h1 class="headerh1">Not only people need a house</h1>
+                    <p class="headerp">We offer to give a chance to a little and nice puppy with an extremely wide and
+                        open
+                        heart. He or she will love you more than anybody else in the world, you will see!</p>
+                    <button class="button" type="button">Make a friend</button>
+                </div>
+                <img src="./img/start-screen-puppy.png" alt="dog">
+            </div>
+        </div>
+        <div class="info">
+            <img src=".\img\about-pets.png" alt="pets">
+            <div class="info-content">
+                <div class="block-title">About the shelter <br> “Cozy House”</div>
+                <p>Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will
+                    find a family. The others will continue to live with us and will be waiting for a lucky chance to
+                    become dearly loved. </p>
+                <p>We feed our wards with the best food and make sure that they do not get sick, feel comfortable
+                    (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various
+                    skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals,
+                    they become attached to the pets and would hardly ever leave them alone.</p>
+            </div>
+        </div>
+        <div class="catalog">
+            <p class="block-title tac mx-auto">Our friends who are looking for a house</p>
+            <div class="pets">
+                <div class="petcard">
+                    <img src="./img/pets-katrine.png" alt="katrine">
+                    <p>Katrine</p>
+                    <button class="button_learnmore" data-id="1">Learn more</button>
+                </div>
+                <div class="petcard">
+                    <img src="./img/pets-jennifer.png" alt="jennifer">
+                    <p>Jennifer</p>
+                    <button class="button_learnmore" data-id="2">Learn more</button>
+                </div>
+                <div class="petcard">
+                    <img src="./img/pets-woody.png" alt="woody">
+                    <p></p>
+                    <button class="button_learnmore" data-id="3">Learn more</button>
+                </div>
+            </div>
+            <button class="button d-block mx-auto mt-60 mb-100" type="button">Get to know the rest</button>
+        </div>
+        <div class="modal_wrap">
+            <div class="modal_content">
+                <img src="./img/pets-jennifer.jpg" alt="jennifer">
+                <div class="modal_inf">
+                    <div class="modal_name">Jennifer</div>
+                    <div class="modal_animal">Dog - Labrador</div>
+                    <div class="modal_discr">Jennifer is a sweet 2 months old Labrador that is patiently waiting to find
+                        a
+                        new forever home.
+                        This girl really enjoys being able to go outside to run and play, but won't hesitate to play up
+                        a
+                        storm in the house if she has all of her favorite toys.</div>
+                    <ul class="property">
+                        <li>
+                            <div class="ol_title">Age: </div>2 months
+                        </li>
+                        <li>
+                            <div class="ol_title">Inoculations: </div>none
+                        </li>
+                        <li>
+                            <div class="ol_title">Diseases: </div>none
+                        </li>
+                        <li>
+                            <div class="ol_title">Parasites: </div>none
+                        </li>
+                    </ul>
+                </div>
+                <button class="modal_close">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7.42618 6.00003L11.7046 1.72158C12.0985 1.32775 12.0985 0.689213 11.7046 0.295433C11.3108 -0.0984027 10.6723 -0.0984027 10.2785 0.295433L5.99998 4.57394L1.72148 0.295377C1.32765 -0.098459 0.68917 -0.098459 0.295334 0.295377C-0.0984448 0.689213 -0.0984448 1.32775 0.295334 1.72153L4.57383 5.99997L0.295334 10.2785C-0.0984448 10.6723 -0.0984448 11.3108 0.295334 11.7046C0.68917 12.0985 1.32765 12.0985 1.72148 11.7046L5.99998 7.42612L10.2785 11.7046C10.6723 12.0985 11.3108 12.0985 11.7046 11.7046C12.0985 11.3108 12.0985 10.6723 11.7046 10.2785L7.42618 6.00003Z"
+                            fill="#292929" />
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+        <div class="help">
+            <p class="block-title tac mx-auto">
+                How you can help our shelter
+            </p>
+            <div class="itemsrow">
+                <div class="card">
+                    <img src="./img/icon-pet-food.png" alt="Pet food">
+                    <p>Pet food</p>
+                </div>
+                <div class="card">
+                    <img src="./img/icon-transportation.png" alt="Transportation">
+                    <p>Transportation</p>
+                </div>
+                <div class="card">
+                    <img src="./img/icon-toys.png" alt="Toys">
+                    <p>Toys</p>
+                </div>
+                <div class="card">
+                    <img src="./img/icon-bowls-and-cups.png" alt="Bowls and cups">
+                    <p>Bowls and cups</p>
+                </div>
+                <div class="card">
+                    <img src="./img/icon-shampoos.png" alt="Shampoos">
+                    <p>Shampoos</p>
+                </div>
+                <div class="card">
+                    <img src="./img/icon-vitamins.png" alt="Vitamins">
+                    <p>Vitamins</p>
+                </div>
+                <div class="card">
+                    <img src="./img/icon-medicines.png" alt="Medicines">
+                    <p>Medicines</p>
+                </div>
+                <div class="card">
+                    <img src="./img/icon-collars-leashes.png" alt="Collars/leashes">
+                    <p>Collars/leashes</p>
+                </div>
+                <div class="card">
+                    <img src="./img/icon-sleeping-area.png" alt="Sleeping areas">
+                    <p>Sleeping areas</p>
+                </div>
+            </div>
+        </div>
+        <div class="donation">
+            <div>
+                <img class="donation_img" src="./img/donation-dog.png" alt="dog">
+            </div>
+            <div class="inform">
+                <p class="block-title my-0">You can also <br> make a donation</p>
+                <p class="label_serif">Name of the bank / Type of bank account</p>
+                <a href="#" class="phone_number label">
+                    <img src="./img/credit-card.png" alt="credit-card">
+                    <span>8380 2880 8028 8791 7435</span>
+                </a>
+                <p class="lorem">
+                    Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at
+                    libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et
+                    malesuada fames ac ante ipsum primis in faucibus.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer_column">
+            <p class="block-title white"> For questions and suggestions</p>
+            <div class="brown-parag">
+                <img src="./img/icon-email.png" alt="email">
+                <a href="#" class="email">email@shelter.com</a>
+            </div>
+            <div class="brown-parag">
+                <img src="./img/icon-phone.png" alt="phone">
+                <a href="#" class="phone_number">+13 674 567 75 54</a>
+            </div>
+        </div>
+        <div class="footer_column">
+            <p class="block-title white">We are waiting for your visit</p>
+            <div class="brown-parag">
+                <img src="./img/pin.png" alt="pin">
+                <p class="my-0">1 Central Street, Boston <br> (entrance from the store)</p>
+            </div>
+            <div class="brown-parag">
+                <img src="./img/pin.png" alt="pin">
+                <p class="my-0">18 South Park, London </p>
+            </div>
+        </div>
+        <div class="footer_column_img">
+            <img src="./img/footer-puppy.png" alt="puppy">
+        </div>
+    </footer>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
